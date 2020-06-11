@@ -1,0 +1,19 @@
+.Results {
+  width: 50vw;
+}
+.Result-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Result {
+  border: 1px solid black;
+  width: 25vw;
+  height: 350px;
+  font-family: "Playfair Display", serif;
+}
+
+.Result img {
+  max-width: 200px;
+  height: 200px;
+}
